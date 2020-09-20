@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PatientManagement.API</name>
+    </assembly>
+    <members>
+        <member name="M:PatientManagement.API.Controllers.PatientController.CreatePatient(PatientManagementDTO.DTO.PatientCreateDTO)">
+            <summary>
+            Create a patient.
+            </summary>
+            <returns>Patient</returns>
+            <response code = "200">Returns the created patient.</response>
+            <response code = "400">An error occured.</response>
+        </member>
+        <member name="M:PatientManagement.API.Controllers.PatientController.FindPatientByID(System.String)">
+            <summary>
+            Find patient by ID.
+            </summary>
+            <returns>Patient</returns>
+            <response code = "200">Returns the patient that matches the inserted ID.</response>
+            <response code = "400">An error occured.</response>
+        </member>
+        <member name="M:PatientManagement.API.Controllers.PatientController.FindPatientByPersonalID(System.String)">
+            <summary>
+            Find a patient by personal ID.
+            </summary>
+            <returns>Patient</returns>
+            <response code = "200">Returns the patient that matches the inserted personal ID.</response>
+            <response code = "400">An error occured.</response>
+        </member>
+        <member name="M:PatientManagement.API.Controllers.PatientController.UpdatePatient(PatientManagementDTO.DTO.PatientUpdateDTO)">
+            <summary>
+            Update a patient.
+            </summary>
+            <returns>Patient</returns>
+            <response code = "200">Returns the patient with the updated informations.</response>
+            <response code = "400">An error occured.</response>
+        </member>
+        <member name="M:PatientManagement.API.Controllers.PatientController.DeletePatient(System.String)">
+            <summary>
+            Delete a patient by ID.
+            </summary>
+            <returns>Patient</returns>
+            <response code = "200">Returns the informations of the deleted patient.</response>
+            <response code = "400">An error occured.</response>
+        </member>
+        <member name="M:PatientManagement.API.Controllers.PatientController.ListAllPatients(PatientManagementDTO.DTO.PatientFilter)">
+            <summary>
+            List all patients.
+            </summary>
+            <returns>Patient</returns>
+            <response code = "200">Lists all the patients by custom number.</response>
+            <response code = "400">An error occured.</response>
+        </member>
+        <member name="M:PatientManagement.API.Controllers.PatientController.UpdatePatientStatusByID(System.String,System.String)">
+            <summary>
+            Update the patient status by ID.
+            </summary>
+            <returns>Patient</returns>
+            <response code = "200">Shows the informations of the patient.</response>
+            <response code = "400">An error occured.</response>
+        </member>
+        <member name="M:PatientManagement.API.Controllers.PatientController.UpdateDeadPatientByPersonalID(System.String,System.String)">
+            <summary>
+            Update the patient status by personal ID.
+            </summary>
+            <returns>Patient</returns>
+            <response code = "200">Shows the informations of the patient.</response>
+            <response code = "400">An error occured.</response>
+        </member>
+        <member name="M:PatientManagement.API.Controllers.PatientController.ShowAppointmentsByPatientID(System.String)">
+            <summary>
+            List all appointments of a patient by ID.
+            </summary>
+            <returns>Patient</returns>
+            <response code = "200">Shows the patient and all of his appointments.</response>
+            <response code = "400">An error occured.</response>
+        </member>
+        <member name="M:PatientManagement.API.Controllers.PatientController.ShowAppointmentsByPatientPersonalID(System.String)">
+            <summary>
+            List all appointments of a patient by personal ID.
+            </summary>
+            <returns>Patient</returns>
+            <response code = "200">Shows the patient and all of his appointments.</response>
+            <response code = "400">An error occured.</response>
+        </member>
+        <member name="M:PatientManagement.API.Controllers.PatientController.CreatePatientStatus(PatientManagementDTO.DTO.PatientStatusCreateDTO)">
+            <summary>
+            Create a patient status.
+            </summary>
+            <returns>Patient</returns>
+            <response code = "200">Shows the created patient status.</response>
+            <response code = "400">An error occured.</response>
+        </member>
+        <member name="M:PatientManagement.API.Controllers.PatientController.UpdatePatientStatus(PatientManagementDTO.DTO.PatientStatusUpdateDTO)">
+            <summary>
+            Update a patient status.
+            </summary>
+            <returns>Patient</returns>
+            <response code = "200">Shows the updated patient status.</response>
+            <response code = "400">An error occured.</response>
+        </member>
+        <member name="M:PatientManagement.API.Controllers.PatientController.DeletePatientStatus(System.String)">
+            <summary>
+            Delete a patient status.
+            </summary>
+            <returns>Patient</returns>
+            <response code = "200">Shows the deleted patient status.</response>
+            <response code = "400">An error occured.</response>
+        </member>
+        <member name="M:PatientManagement.API.Controllers.PatientController.ListPatientStatuses(PatientManagementDTO.Filter.PaginationFilter)">
+            <summary>
+            Get all a patient statuses.
+            </summary>
+            <returns>Patient</returns>
+            <response code = "200">Shows all of the patient statuses.</response>
+            <response code = "400">An error occured.</response>
+        </member>
+        <member name="M:PatientManagement.API.Controllers.UserController.GetAllUsers(PatientManagementDTO.Filter.PaginationFilter)">
+            <summary>
+            Get All Users
+            </summary>
+            <returns>All Users</returns>
+            <response code = "200">Return all Users</response>
+            <response code = "400">Some error occured</response>
+            
+        </member>
+        <member name="M:PatientManagement.API.Controllers.UserController.UpdateUser(PatientManagementDTO.DTO.UserDTO)">
+            <summary>
+            Update User
+            </summary>
+            <remarks>
+            Sample request:
+            
+                POST /update/User
+                    {
+                        "FirstName": "Tom",
+                        "LastName" : "Cruze",
+                        "email" : "somemail@.com",
+                        "RoleId" : 1
+                        "StatusId" : 1
+                        
+                    }
+                    
+            </remarks>
+            <param name="userUpdate"></param>
+            <returns>Updated list of users</returns>
+            <response code = "200">Return updated list of users</response>
+            <response code = "400">Some error occured</response>
+        </member>
+        <member name="M:PatientManagement.API.Controllers.UserController.Active">
+            <summary>
+            Get all Active Users
+            </summary>
+            <returns>All Active Users</returns>
+            <response code = "200">Return All Active Users</response>
+            <response code = "400">Some error occured</response>
+        </member>
+        <member name="M:PatientManagement.API.Controllers.UserController.GetUserById(System.String)">
+            <summary>
+            Get User By Id
+            </summary>
+            <remarks>
+            
+            Sample request:
+            
+                GET /single/User
+                {
+                    "UserId" : 1
+                }
+            </remarks>
+            <param name="id"></param>
+            <returns>Single User</returns>
+            <response code = "200">Return User by Id</response>
+            <response code = "400">Some error occured</response>
+        </member>
+        <member name="M:PatientManagement.API.Controllers.UserController.AddUser(PatientManagementDTO.DTO.UserCreateDTO)">
+            <summary>
+            Create a new User
+            </summary>
+            <remarks>
+            Sample request:
+            
+                POST /create/User
+                    {
+                        "FirstName": "Tom",
+                        "LastName" : "Cruze",
+                        "email" : "somemail@.com",
+                        "password" : "23@11"
+                        "RoleId": 1,
+                        "StatusId":1
+                    }
+            </remarks>
+            <param name="userCreate"></param>
+            <returns>Updated list of users</returns>
+            <response code = "200">Return updated list of users</response>
+            <response code = "400">Some error occured</response>
+        </member>
+        <member name="M:PatientManagement.API.Controllers.UserController.DeleteUser(System.String)">
+            <summary>
+            Delete User by Id
+            </summary>
+            <remarks>
+            
+            Sample request:
+            
+                Delete /single/User
+                {
+                    "UserId" : 1
+                }
+            </remarks>
+            <param name="id"></param>
+            <returns>Single User</returns>
+            <response code = "200">Return single User</response>
+            <response code = "400">Some error occured</response>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatientManagement.API", "PatientManagement.API\PatientManagement.API.csproj", "{FD050242-2628-46A8-B2C0-70694551DDC5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatientManagementDTO", "PatientManagementDTO\PatientManagementDTO.csproj", "{4AA4B599-B873-4CCC-B1DD-A36CBE1E4C9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CFFB495A-EB0E-41CD-A835-8F8F72BF6358}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD050242-2628-46A8-B2C0-70694551DDC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD050242-2628-46A8-B2C0-70694551DDC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD050242-2628-46A8-B2C0-70694551DDC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD050242-2628-46A8-B2C0-70694551DDC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AA4B599-B873-4CCC-B1DD-A36CBE1E4C9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AA4B599-B873-4CCC-B1DD-A36CBE1E4C9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AA4B599-B873-4CCC-B1DD-A36CBE1E4C9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AA4B599-B873-4CCC-B1DD-A36CBE1E4C9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7EAF31E-F109-4271-A667-F96D836D1E36}
+	EndGlobalSection
+EndGlobal

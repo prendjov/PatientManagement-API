@@ -1,0 +1,9 @@
+D:\Programming\SkillUp Course (C#, SQL Server Management, .NET Core)\Portfolio Projects\patientmanagement\PatientManagementDTO\bin\Debug\netcoreapp3.1\PatientManagementDTO.deps.json
+D:\Programming\SkillUp Course (C#, SQL Server Management, .NET Core)\Portfolio Projects\patientmanagement\PatientManagementDTO\bin\Debug\netcoreapp3.1\PatientManagementDTO.dll
+D:\Programming\SkillUp Course (C#, SQL Server Management, .NET Core)\Portfolio Projects\patientmanagement\PatientManagementDTO\bin\Debug\netcoreapp3.1\PatientManagementDTO.pdb
+D:\Programming\SkillUp Course (C#, SQL Server Management, .NET Core)\Portfolio Projects\patientmanagement\PatientManagementDTO\obj\Debug\netcoreapp3.1\PatientManagementDTO.csprojAssemblyReference.cache
+D:\Programming\SkillUp Course (C#, SQL Server Management, .NET Core)\Portfolio Projects\patientmanagement\PatientManagementDTO\obj\Debug\netcoreapp3.1\PatientManagementDTO.AssemblyInfoInputs.cache
+D:\Programming\SkillUp Course (C#, SQL Server Management, .NET Core)\Portfolio Projects\patientmanagement\PatientManagementDTO\obj\Debug\netcoreapp3.1\PatientManagementDTO.AssemblyInfo.cs
+D:\Programming\SkillUp Course (C#, SQL Server Management, .NET Core)\Portfolio Projects\patientmanagement\PatientManagementDTO\obj\Debug\netcoreapp3.1\PatientManagementDTO.csproj.CoreCompileInputs.cache
+D:\Programming\SkillUp Course (C#, SQL Server Management, .NET Core)\Portfolio Projects\patientmanagement\PatientManagementDTO\obj\Debug\netcoreapp3.1\PatientManagementDTO.dll
+D:\Programming\SkillUp Course (C#, SQL Server Management, .NET Core)\Portfolio Projects\patientmanagement\PatientManagementDTO\obj\Debug\netcoreapp3.1\PatientManagementDTO.pdb
